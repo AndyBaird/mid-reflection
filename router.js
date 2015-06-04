@@ -4,7 +4,7 @@ var router = new Backbone.Router();
 // Start Backbone history a necessary step for bookmarkable URL's
 Backbone.history.start();
 
-function show (titleStr){
+  function show (titleStr){
 		$('h1').html(titleStr);
 	}
 // the default route, which runs when the url is blank
@@ -29,7 +29,6 @@ router.route('data', function () {
 // Add the weather route which runs when the URL is #weather
 router.route('weather', function () {
   show('Weather');
-    $('.active-title').html("Current Weather");
 });
 
 // Kick off our initial route

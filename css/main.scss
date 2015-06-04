@@ -12,6 +12,7 @@ header{
   float: right;
   text-align: center;
   margin-right: 35%;
+  padding-top:1em;
   padding-left: 3.5em;
   padding-right: 3.5em;
   clear: both;
@@ -67,9 +68,20 @@ a {
 .selection-display{
   float: right;
   border-radius: 0.2em;
-  padding: 4em;
+  padding: 2em;
+  width: 20em;
   background: white;
   margin-top: 20%;
   margin-left:50%;
-  margin-right: 35%;
+  margin-right: 25%;
+}
+.active-title{
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+}
+.active-content{
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
 }
